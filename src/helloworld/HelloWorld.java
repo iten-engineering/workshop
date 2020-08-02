@@ -22,7 +22,7 @@ public class HelloWorld {
 		System.out.println(meinDritterText);
 
 		// step 4
-		String mein4Text = "Hello World 4, heute ist %s Uhr";
+		String mein4Text = "Hello World 4, es ist %s Uhr";
 		Date date2 = new Date();
 
 		System.out.printf(mein4Text, date2);
