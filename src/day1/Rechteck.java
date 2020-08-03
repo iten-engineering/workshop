@@ -13,9 +13,9 @@ public class Rechteck {
 		int flaeche = l * b;
 
 		// Ausgabe Resultate
-		System.out.printf("Das Rechteck mit Länge %d und Breite %d hat:%n", l,
-				b);
+		System.out.printf("Das Rechteck mit Länge %d und Breite %d hat:%n", l, b);
 		System.out.printf("Umfang = %d %n", umfang);
 		System.out.printf("Fläche = %d %n", flaeche);
+
 	}
 }
