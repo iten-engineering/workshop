@@ -1,4 +1,4 @@
-package helloworld;
+package day1;
 
 import java.util.Date;
 
