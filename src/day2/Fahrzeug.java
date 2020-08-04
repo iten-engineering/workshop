@@ -4,18 +4,23 @@ public abstract class Fahrzeug {
 
 	private String farbe;
 	private int baujahr;
-	
+
 	public Fahrzeug() {
 		super();
 	}
-	
+
 	public Fahrzeug(String farbe, int baujahr) {
 		this.farbe = farbe;
 		this.baujahr = baujahr;
 	}
-	
-	public abstract void fahren();
 
+	public abstract String getType();
+
+	public void fahren() {
+		System.out.println(getType() + " fährt...");
+	}
+
+	@Override
 	public String toString() {
 		return "Farbe=" + this.farbe + ", Baujahr=" + this.baujahr;
 	}
@@ -35,5 +40,5 @@ public abstract class Fahrzeug {
 	public void setBaujahr(int baujahr) {
 		this.baujahr = baujahr;
 	}
-	
+
 }

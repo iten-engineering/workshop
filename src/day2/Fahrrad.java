@@ -7,22 +7,22 @@ public class Fahrrad extends Fahrzeug {
 	public Fahrrad() {
 		super();
 	}
-	
+
 	public Fahrrad(String farbe, int baujahr, String marke) {
 		super(farbe, baujahr);
 		this.marke = marke;
 	}
 
 	@Override
-	public void fahren() {
-		System.out.println("Fahrrad fährt...");
+	public String getType() {
+		return "Fahrrad";
 	}
 
 	@Override
 	public String toString() {
 		return "Fahrrad mit" + super.toString() + ", Marke=" + this.marke;
 	}
-	
+
 	public String getMarke() {
 		return marke;
 	}
@@ -30,4 +30,5 @@ public class Fahrrad extends Fahrzeug {
 	public void setMarke(String marke) {
 		this.marke = marke;
 	}
+
 }
