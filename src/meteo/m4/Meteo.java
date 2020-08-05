@@ -9,6 +9,29 @@ public class Meteo implements Kenntage, Temperaturen {
 	}
 
 	//
+	// interface Temperaturen
+	//
+	@Override
+	public double[] getTemperaturen() {
+		return this.tagesTemperaturen.getTemperaturen();
+	}
+
+	@Override
+	public double getMin() {
+		return this.tagesTemperaturen.getMin();
+	}
+
+	@Override
+	public double getMax() {
+		return this.tagesTemperaturen.getMax();
+	}
+
+	@Override
+	public double getMittelWert() {
+		return this.tagesTemperaturen.getMittelWert();
+	}
+
+	//
 	// interface Kenntage
 	//
 	@Override
@@ -49,29 +72,6 @@ public class Meteo implements Kenntage, Temperaturen {
 	@Override
 	public boolean isEisTag() {
 		return (getMax() < 0);
-	}
-
-	//
-	// interface Temperaturen
-	//
-	@Override
-	public double[] getTemperaturen() {
-		return this.tagesTemperaturen.getTemperaturen();
-	}
-
-	@Override
-	public double getMin() {
-		return this.tagesTemperaturen.getMin();
-	}
-
-	@Override
-	public double getMax() {
-		return this.tagesTemperaturen.getMax();
-	}
-
-	@Override
-	public double getMittelWert() {
-		return this.tagesTemperaturen.getMittelWert();
 	}
 
 }
