@@ -1,6 +1,5 @@
 package day4;
 
-import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +11,7 @@ public class NumUtilTest {
 	public void min() {
 
 		int actual = numUtil.min(5, 6, 7);
-		Assert.assertEquals(5, actual);
+		Assertions.assertEquals(5, actual);
 
 	}
 
