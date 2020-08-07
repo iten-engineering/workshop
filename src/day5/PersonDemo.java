@@ -13,10 +13,9 @@ public class PersonDemo {
 		PersonReader reader = new PersonReader();
 		persons = reader.readPersons();
 
-		System.out.println("Personen:");
-		for (Person person : persons) {
-			System.out.println("  - " + person);
-		}
+		// Personen schrieben
+		PersonWriter writer = new PersonWriter();
+		writer.writePersons(persons);
 
 	}
 

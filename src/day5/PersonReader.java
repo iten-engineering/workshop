@@ -39,7 +39,7 @@ public class PersonReader {
 
 		System.out.println("Geben Sie bitte eine Person ein:");
 		firstname = read("Vorname  = ");
-		lastname = read("Lastname = ");
+		lastname = read("Nachname = ");
 		year = readAsInt("Jahrgang = ");
 
 		return new Person(firstname, lastname, year);
