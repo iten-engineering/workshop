@@ -1,3 +1,3 @@
 
-l = []
-help(l)
+
+help(list)
