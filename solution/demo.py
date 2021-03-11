@@ -1,7 +1,8 @@
 
+double = lambda a: 2*a
 
-def multiplier(n):
-    return lambda a : a * n
 
-double = multiplier(22)
-print(double(4))
+gen = map(double, [-1, 2, -3])
+
+for el in gen:    
+    print(el)

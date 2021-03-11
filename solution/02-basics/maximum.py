@@ -2,6 +2,7 @@
 def max(x, y, z=None):
     if z == None:
         return x if x > y else y
+    # x, y, z
     if x > y and x > z:
         return x
     elif y > z:
