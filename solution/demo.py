@@ -1,10 +1,10 @@
 
-class Foo(object):
-    def __init__(self):
-        self.a = 1
-        self.b = 2
+names = ["Peter", "Jane", "Fred"]
+ages  = [31, 35, 4]
 
-f = Foo()
-# print(vars(f))        
+for t in zip(names, ages):
+    print(t[1])
 
-print( vars(f).keys() )
+for name, age in zip(names, ages):
+    print("{} ist {} Jahre alt".format(name, age))
+
