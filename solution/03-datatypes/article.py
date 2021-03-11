@@ -25,4 +25,4 @@ for nr in articles:
     a = articles[nr]
     a['price'] = a['price'] * 0.8
     print(articles[nr])
-    print("{:10.2}".format(a['price']))
+    print("{:.4}".format(a['price']))
