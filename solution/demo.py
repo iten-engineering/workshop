@@ -1,5 +1,10 @@
 
-msg = "Hello"
-x = 42
+class Foo(object):
+    def __init__(self):
+        self.a = 1
+        self.b = 2
 
-print(msg, x, "Test")
+f = Foo()
+# print(vars(f))        
+
+print( vars(f).keys() )
