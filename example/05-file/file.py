@@ -9,7 +9,7 @@
 # - f.close()                             # close a file
 
 # open with automatic close (with)
-with open("hello.txt", "r") as f:
+with open("d:/dev/iten-engineering/workshop/example/05-file/hello.txt", "r") as f:
     text = f.read()
 print(text)
 
