@@ -1,6 +1,5 @@
 import os
 
-
 def dirWalker(path, level):
     contents = os.listdir(path)
     dirs  = [el for el in contents if os.path.isdir(path + el)]
@@ -17,7 +16,6 @@ def dirWalker(path, level):
         print(intend + d)
         dirWalker(path + d + "/", level + 1)
     
-
 # start
 path = "D:/dev/iten-engineering/workshop/lab/09-apps/"
 dirWalker(path, 0)    
