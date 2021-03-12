@@ -14,7 +14,7 @@ lines.sort()
 print(lines)
 
 # write file
-with open(outFile, "w", encoding="UTF-8") as f:
+with open(outFile, "w", encoding="UTF-16") as f:
     for line in lines:
         f.write(line)
         f.write("\n")
