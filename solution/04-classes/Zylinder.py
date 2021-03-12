@@ -11,11 +11,11 @@ class Zylinder(Kreis):
 
     def show(self):
         print("Zylinder mit Radius", self.radius, "und Höhe", self.hoehe)        
-        print("- Volumen =", self.volumen())
-
+        print("- Volumen     =", self.volumen())
+        print(super().show())
 
 if __name__ == '__main__':
-    k = Kreis(3)
-    k.show()
+    # k = Kreis(3)
+    # k.show()
     z = Zylinder(3,5)
     z.show()
