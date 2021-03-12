@@ -16,7 +16,8 @@ class Kreis:
         return math.pi * pow(self.radius,2)
 
     def __del__(self):
-       print("Delete Kreis mit Radius", self.radius)    
+       # print("Delete Kreis mit Radius", self.radius)    
+       pass
 
 
 if __name__ == "__main__":
