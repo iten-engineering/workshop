@@ -3,14 +3,11 @@ import os
 
 def dirWalker(path, level):
     contents = os.listdir(path)
-    dirs  = []
+    dirs  = [el for el in contents if os.path.isdir(path + el)]
     files = []
     for content in contents:
         p = path + content
-        isDir  = os.path.isdir(p)
         isFile = os.path.isfile(p)
-        if isDir:
-            dirs.append(content)
         if isFile:
             files.append(content)    
     intend = " " * (level * 2)
