@@ -19,12 +19,13 @@ class Kreis:
        print("Delete Kreis mit Radius", self.radius)    
 
 
-text = "End of course"
+if __name__ == "__main__":
+    text = "End of course"
 
-kreis1 = Kreis(5)
-kreis1.show()
-del kreis1
+    kreis1 = Kreis(5)
+    kreis1.show()
+    del kreis1
 
-kreis2 = Kreis(3.5)
-kreis2.show()
+    kreis2 = Kreis(3.5)
+    kreis2.show()
 
