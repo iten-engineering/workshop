@@ -1,2 +1,7 @@
+import re
 
-print("Good morning")
+print(" ab c ".strip())
+
+txt = " ab c " 
+x = re.sub("\s", "-", txt)
+print(x)
