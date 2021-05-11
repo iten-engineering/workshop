@@ -19,16 +19,18 @@ class Kreis:
     def setKreis(self, kreis):
         self.kreis = kreis
 
-radien = [2,3,7.5,15]
-kreise = []
-for radius in radien:
-    k = Kreis(radius)
-    kreise.append(k)
 
-for k in kreise:
-    k.print()
+if __name__ == "__main__":
+    radien = [2,3,7.5,15]
+    kreise = []
+    for radius in radien:
+        k = Kreis(radius)
+        kreise.append(k)
 
-k1 = Kreis(1)
-k1 = Kreis(77)
+    for k in kreise:
+        k.print()
+
+    k1 = Kreis(1)
+    k1 = Kreis(77)
 
 
