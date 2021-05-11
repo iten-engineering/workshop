@@ -64,6 +64,7 @@ conda activate myenv                 | Activate the myenv environment
 conda list                           | Show packages of active environment
 conda install [pachagename]          | Install Package 
 conda update [pachagename]           | Update Package 
+conda env export > environment.yml   | Create environment.yml from active env.
 
 > ! Execute command within the Anaconda Shell.
 
