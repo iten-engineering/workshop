@@ -29,8 +29,6 @@ for k in kreise:
     k.print()
 
 k1 = Kreis(1)
-k1.print()
-k1.setKreis(7)
-k1.print()    
+k1 = Kreis(77)
 
 
