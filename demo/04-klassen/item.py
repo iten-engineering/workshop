@@ -5,6 +5,8 @@ class Item:
         self.number = number
         print("Create item:", self.number)
 
+def main():
+    item = Item(7)
 
-item = Item(7)
+main()
 
