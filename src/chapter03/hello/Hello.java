@@ -1,4 +1,4 @@
-package workshop.chapter03.hello;
+package chapter03.hello;
 
 public class Hello {
 
