@@ -21,8 +21,6 @@ public class PersonDemo {
 		for (Person person : persons) {
 			System.out.println(person.toString());
 		}
-		
-		
 	}
 
 }
