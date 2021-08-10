@@ -38,6 +38,5 @@ public class MeteoTest {
 		if (meteo.isEisTag()) {
 			System.out.println("- Eistag");
 		}
-	}
-
+	}	
 }
