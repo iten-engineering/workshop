@@ -29,9 +29,9 @@ public class Meteo {
 		if (max >= 35) {
 			System.out.println("Wüstentag");
 		} else if (max >=30) {
-			System.out.println("Wüstentag");			
+			System.out.println("Heisser Tag");			
 		} else if (max >= 25) {
-			System.out.println("Wüstentag");
+			System.out.println("Sommertag");
 		} else if (max <0) {
 			System.out.println("Eistag");
 		}
