@@ -1,6 +1,7 @@
 package meteo.m2oo;
 
 public class Meteo {
+
 	private double min;
 	private double max;
 	private double mittelWert;
@@ -33,7 +34,6 @@ public class Meteo {
 	public double getMittelWert() {
 		return mittelWert;
 	}
-
 	
 	//	Maxima:
 	//	Tmax >= 35 ºC: Wüstentag

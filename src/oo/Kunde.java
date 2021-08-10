@@ -11,5 +11,15 @@ public class Kunde extends Person {
 	public String toString( ) {
 		return super.toString() + ", kundenNr=" + this.kundenNr;
 	}
+
+	public Integer getKundenNr() {
+		return kundenNr;
+	}
+
+	public void setKundenNr(Integer kundenNr) {
+		this.kundenNr = kundenNr;
+	}
+	
+	
 	
 }
