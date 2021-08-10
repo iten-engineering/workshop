@@ -7,6 +7,8 @@ public class PersonDemo {
 
 	public static void main(String[] args) {
 		
+		oo.test.Person p;
+		
 		Person pipi = new Person("Pipi", 1966);
 		pipi.setName("Pipi Langstrumpf");		
 		Person max = new Mitarbeiter("Max", 1990, 80000);	
