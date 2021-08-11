@@ -20,15 +20,25 @@ public class PersonDemo {
 			System.out.println( k.toString() );			
 		}	
 		
-//		List<Person> persons = new ArrayList<>();
-//		persons.add(pipi);
-//		persons.add(max);
-//		persons.add(livia);
-//		persons.add(new Kunde("Angela", 1950, 250000));
-//		
-//		for (Person person : persons) {
-//			System.out.println(person.toString());
-//		}
+		List<Person> persons = new ArrayList<>();
+		persons.add(pipi);
+		persons.add(max);
+		persons.add(livia);
+		persons.add(new Kunde("Angela", 1950, 250000));
+		
+		for (Person person : persons) {
+			System.out.println(person.toString());
+		}
+		
+		
+		Person[] persons2 = {pipi, max, livia};
+		for (Person person : persons2) {
+			System.out.println(person.toString());
+		}
+		
+		
+		
+		
 	}
 
 }
