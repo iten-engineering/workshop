@@ -17,7 +17,7 @@ public class BookDemo {
 		books.add(new Book("Faust II", "Goethe", 20000));
 		books.add(new Book("Effi Briest", "Fontane", 10000));
 
-		System.out.println("B�cher:");
+		System.out.println("Bücher:");
 		for (Book book : books) {
 			System.out.println(" - " + book);
 		}
@@ -26,7 +26,7 @@ public class BookDemo {
 		System.out.println();
 		Set<Book> sortedBooks = new TreeSet(books);
 
-		System.out.println("B�cher sortiert:");
+		System.out.println("Bücher sortiert:");
 		for (Book book : sortedBooks) {
 			System.out.println(" - " + book);
 		}
