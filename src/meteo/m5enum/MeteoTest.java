@@ -6,7 +6,7 @@ import java.util.List;
 public class MeteoTest {
 
 	/**
-	 * Test für die Klasse Meteo.
+	 * Test fÃ¼r die Klasse Meteo.
 	 */
 	public static void main(String[] args) {
 		double[] temperaturen = { -8.1, -4.5, -2.1, -1.3, -0.1, -2.2, -4.1, -6.3 };

@@ -6,7 +6,7 @@ public enum Kenntag {
     VEGETATIONS_TAG("Vegetationstag"), 
     FROST_TAG("Frosttag"), 
     HEIZ_TAG("Heiztag"), 
-    WUESTEN_TAG("Wüstentag"), 
+    WUESTEN_TAG("WÃ¼stentag"), 
     HEISSER_TAG("Heisser Tag"), 
     SOMMER_TAG("Sommertag"), 
     EIS_TAG("Eistag");
