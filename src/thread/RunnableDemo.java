@@ -10,8 +10,8 @@ public class RunnableDemo {
 		Counter counter = new Counter();
 		List<Thread> threads = new ArrayList<>();
 		
-		int numberOfTreads = 100000;
-		int numberOfCounts = 100;
+		int numberOfTreads = 100;
+		int numberOfCounts = 1000;
 		
 		System.out.println("Main Start");
 		for (int i = 0; i < numberOfTreads; i++) {
