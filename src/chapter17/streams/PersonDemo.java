@@ -6,13 +6,10 @@ public class PersonDemo {
 
 	public static void main(String[] args) {
 		PersonReader reader = new PersonReader();
-		
 		List<Person> persons = reader.readPersons();
 		
-		for (Person person : persons) {
-			System.out.println(person);
-		}
-
+		PersonWriter writer = new PersonWriter("persons.txt");
+		writer.writePersons(persons);
 	}
 
 }
