@@ -33,7 +33,6 @@ public class TreeDemo {
 				stack.add(node.getChilds().get(i));				
 			}
 		}
-		
 	}
 	
 }
