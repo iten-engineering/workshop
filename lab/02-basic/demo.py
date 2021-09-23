@@ -6,8 +6,8 @@ print(s)
 s.add(15)
 print(s)
 
-# s = sorted(s)
-# print(s)
+s = sorted(s)
+print(s)
 
 elem = s.pop()
 print(elem)
