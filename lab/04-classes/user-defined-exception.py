@@ -22,10 +22,16 @@ class Security():
 
 testdata = {
     "Greta": "secret", 
-    "Sam"  : "verysecret",
+    "Sam"  : "invalidsecret",
     "Mike" : "topsecret",
     "Hacker" : "hidden"
 }
 
-for user, password in testdata:
-    print(user, password)
+security = Security()
+
+for user, password in testdata.items():
+    try:
+        security.validate(user, password)
+        print("Validate", user, "OK")
+    except SecurityException as e:
+        print("Error No", e.errno, ":", e.message)
