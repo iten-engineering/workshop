@@ -1,4 +1,4 @@
-Anna
+Anna Lena
 Anton
 Elias
 Emil
@@ -12,5 +12,3 @@ Lena
 Line
 Linus
 Paul
-Sarah
-Theo
