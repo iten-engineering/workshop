@@ -1,7 +1,0 @@
-name: myproject
-dependencies:
-  - python=3.9
-  - conda
-  - pip
-  - pip:
-    - numpy
