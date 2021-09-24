@@ -17,9 +17,9 @@ class Kreis:
         print("- Umfang = ", self.umfang())
         print("- Fläche = ", self.flaeche())
 
-
-radien = [3.5, -4, 1.8, 9]
-for r in radien:
-    k = Kreis(r)
-    k.radius
-    k.print()
+if __name__ == "__main__":
+    radien = [3.5, -4, 1.8, 9]
+    for r in radien:
+        k = Kreis(r)
+        k.radius
+        k.print()
