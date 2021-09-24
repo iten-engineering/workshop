@@ -8,19 +8,17 @@ file = "DATASET XLSX 22-08-2021.xlsx"
 df = pd.read_excel(path + file, sheet_name='DATA')
 # print(df.head(5))
 
-"""
 df_ehe = df.loc[ df['anr'] == 647 ]
 print(df_ehe)
 
 df_votes = df_ehe[['nrja',	'nrnein', 'srja', 'srnein']]
-print("---")
 print(df_votes)
 
 names = df_votes.columns.values.tolist()
 votes = df_votes.values.tolist()[0]
 
-# names = ['nrja', 'nrnein', 'srja', 'srnein']
-# votes = [136, 48, 24, 11]
+print(names)
+print(votes)
 
 y_pos = np.arange(len(names))
 plt.bar(y_pos, votes, align='center', alpha=0.5)
@@ -28,4 +26,3 @@ plt.xticks(y_pos, names)
 plt.ylabel('Votes')
 plt.title('Ehe für alle')
 plt.show()
-"""
