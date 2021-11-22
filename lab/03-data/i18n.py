@@ -1,7 +1,7 @@
 
 i18n = {
     "de" : "Guten morgen",
-    "fr" : "Bon jour",
+    "fr" : "Bonjour",
     "it" : "Buongiorno",
     "en" : "Good morning"
 }
