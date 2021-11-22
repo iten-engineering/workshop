@@ -20,6 +20,7 @@ umsatz= df['Umsatz'].tolist()
 print(monat)
 print(umsatz)
 
+
 # Print bar chart
 xpos = np.arange(len(monat))
 plt.bar(xpos, umsatz, align='center', alpha=0.5)

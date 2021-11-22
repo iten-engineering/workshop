@@ -31,7 +31,7 @@ fk(**test4)
 def show(name, *args):
     print(name)
     for arg in args:
-        print("-", arg)
+        print("-",arg)
 
 show("Hello")
 show("Hello", 1, 2, 3, "World")
