@@ -6,10 +6,11 @@
 # - https://pythonspot.com/matplotlib-bar-chart/ 
 # -------------------------------------------------------------------------------------------------
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 
+# Read excel
 df = pd.read_excel('lab/05-file/umsatz.xlsx') 
 print(df)
 
@@ -19,6 +20,7 @@ umsatz= df['Umsatz'].tolist()
 print(monat)
 print(umsatz)
 
+# Print bar chart
 xpos = np.arange(len(monat))
 plt.bar(xpos, umsatz, align='center', alpha=0.5)
 plt.xticks(xpos, monat)
