@@ -20,8 +20,18 @@ test4 = {
     "end" : 400
 }
 
-
 print("Keyword Arguments")
 fk()
 fk(end=300)
 fk(**test4)
+
+
+# Variable Anzahl Elemente
+
+def show(name, *args):
+    print(name)
+    for arg in args:
+        print("-", arg)
+
+show("Hello")
+show("Hello", 1, 2, 3, "World")
