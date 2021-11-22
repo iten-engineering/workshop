@@ -11,4 +11,5 @@ else:
     print(name2)
     print(name1)
 
-
+names = [name1,name2]
+print( sorted(names) )
