@@ -1,3 +1,4 @@
+
 items = [1, 2, 0, 7]
 
 print(items)
