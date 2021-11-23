@@ -12,4 +12,4 @@ def download_and_unzip(url, extract_to="."):
     zip = ZipFile(BytesIO(http_response.read()))
     zip.extractall(path = extract_to)
 
-download_and_unzip(url)
+download_and_unzip(url, extract_to="./lab/09-apps/covid")
