@@ -13,7 +13,6 @@ with open(file_name_out, "w") as f:
         f.write(line)
         f.write("\n")
 
-
 try:
     f = open(file_name_out, "r")
     print(f.read().splitlines())
