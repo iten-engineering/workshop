@@ -1,5 +1,5 @@
 
-value = input("Temperatur in Fahrenheit:")
+value = input("Temperatur in Fahrenheit:") 
 fahrenheit = float(value)
 grad = 5 * (fahrenheit-32) / 9
 
