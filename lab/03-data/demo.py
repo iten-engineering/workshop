@@ -13,3 +13,8 @@ print(x, y)
 
 text = " Hello   World".strip()
 print("[" + text + "]")
+
+print("Find:")
+text = "xxThis and that"
+idx = text.lower().find("th")
+print(idx)       		
