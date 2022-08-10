@@ -1,10 +1,6 @@
 
 print("Hello World.")
 
-name = input("Geben sie ihren Namen ein:")
+name = input("Name = ")
 print("Hello", name, sep="-")
 
-
-https://github.com/iten-engineering/python
-
-https://github.com/iten-engineering/workshop 
