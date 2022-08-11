@@ -3,6 +3,10 @@ class MathUtil:
 
     @staticmethod
     def min(a, b, c):
+        # check params    
+        if a is None or b is None or c is None:
+            raise Exception("None is not allowed")
+        # calculate min
         if (a < b and a < c):
             return a
         elif b < c:
@@ -11,6 +15,10 @@ class MathUtil:
 
     @staticmethod
     def max(a, b, c):
+        # check params    
+        if a is None or b is None or c is None:
+            raise Exception("None is not allowed")
+        # calculate max
         if (a > b and a > c):
             return a
         elif b > c:
