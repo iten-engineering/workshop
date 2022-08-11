@@ -20,8 +20,7 @@ class MathUtilTest(unittest.TestCase):
 
     def test_min_ex(self):
         try:
-            x = MathUtil.min(3,None,1)
-            print(x)
+            MathUtil.min(3,None,1)
         except Exception:
             self.assertTrue(True)
         else:                        
