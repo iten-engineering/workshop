@@ -1,8 +1,11 @@
-# Streamlit Beispiele
+# Streamlit
 
 ## Hello World
 
 Kennenlernen des streamlit Framework.
+
+![Hello Streamlit](../../img/hello-streamlit.png)
+
 
 1. Gehen sie auf die Web Site https://streamlit.io/ und erkunden sie die Dokumentation.
 
