@@ -62,6 +62,7 @@ Einlesen einer Excel Datei mit Verkaufszahlen pro Stadt, Anzeige als Tabelle und
 
 10. Passen Sie die Anzeige vom Chart so an, dass entweder die Daten einer einzelnen Stadt oder alle angezeigt werden, so wie Sie es in der SelectBox angewählt haben.
 Starten Sie die Anwendung und prüfen Sie das Resultat.
+![Sales Bern](../../img/sales-bern.png)
 
 11. Fügen Sie im der Excel Datei eine neue Stadt hinzu und passen Sie den Code so an, das die Auswahl der    SelectBox automatisch anhand der Excel Daten generiert wird.
     Starten Sie die Anwendung und prüfen Sie das Resultat.
