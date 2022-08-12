@@ -28,6 +28,5 @@ target/
 
 /bin/
 
-example
-solution
-
+.idea
+.vscode
