@@ -90,3 +90,36 @@ Laden und Filtern von CSV Daten und Visualisiern als Line Chart mit Hilfe eines 
 
 10. Führen Sie das Programm nochmals aus und überprüfen Sie Ihr Resultat.
 
+## Covid CH
+
+Laden von JSON Daten, Filter der Covid Zahlen für die gesammte Schweiz und Visualiserung als Line Chart.
+
+1. Schauen Sie sich die Datei `COVID19Cases_geoRegion.json` im VS Code an. Uns interessieren die drei folgenden Felder:
+- geoRegion
+- datum
+- entries
+
+
+Sie hat zwei Spalten. Die erste enthält die Monate, die zweite den Umsatz des entsprechenden Monats.
+
+2. Erstellen Sie ein Script `covid.py` und importieren Sie folgende Bibliotheken
+   ```
+   import json
+   import matplotlib.pyplot as plt
+   import numpy as np
+   import pandas as pd
+   ```
+3. Lesen sie die JSON Datei mit den Befehle `json.load(...)` innerhalb eines `with` Blocks in die Variable `records` ein.
+
+4. Erstellen Sie zwei leere listen für die X- und Y-Achsenwerte.
+
+5. Iterieren Sie über alle Records und filtern Sie die  Werte aus der `geoRegion` "CH". Das Feld `datum` wird zur Liste für die X-Achse hinzugefügt. Das Feld `entries` kommt in die Liste für die Y-Achse.
+
+6. Erstellen Sie einen plot mit der Matplotlib. Die X-Achse können sie mit folgendem Befehl optimieren:
+   ```
+   plt.xticks(np.arange(0, len(x)+1, 80))
+   ```
+
+7. Speichern Sie die Grafik als PNG Datei.
+
+8. Führen Sie das Programm nochmals aus und überprüfen Sie Ihr Resultat.
